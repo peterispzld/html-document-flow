@@ -1,0 +1,54 @@
+/* 
+this css reveals the default behavior of html elements 
+
+each element is displayed in a box
+*/
+
+body {
+    background-color: rgb(31, 31, 31);
+    color: rgb(191, 191, 191);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    background: rgba(50, 96, 168, 0.47);
+}
+
+em {
+    color: rgb(224, 122, 5);
+}
+
+span {
+    background: rgba(73, 129, 129, 0.92);
+}
+
+p {
+    background: rgba(73, 129, 129, 0.46);
+}
+
+a {
+    color: rgb: (118, 167, 125);
+    background: rgba(20, 79, 149, 0.46);
+}
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+}
+
+.display-none {
+    display: none;
+}
